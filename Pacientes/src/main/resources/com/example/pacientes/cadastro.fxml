@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="337.0" prefWidth="324.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pacientes.CadastroController">
+   <children>
+      <Label layoutX="25.0" layoutY="26.0" text="Codigo:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="64.0" text="Nome:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="102.0" text="Peso:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="141.0" text="Genero:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="203.0" text="Idade:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="238.0" text="Altura">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldCodigo" layoutX="91.0" layoutY="23.0" prefHeight="25.0" prefWidth="202.0" promptText="123" />
+      <TextField fx:id="textFieldNome" layoutX="91.0" layoutY="61.0" prefHeight="25.0" prefWidth="202.0" promptText="Pedro" />
+      <TextField fx:id="textFieldPeso" layoutX="91.0" layoutY="99.0" prefHeight="25.0" prefWidth="202.0" promptText="75 Kg" />
+      <TextField fx:id="textFieldIdade" layoutX="91.0" layoutY="200.0" prefHeight="25.0" prefWidth="202.0" promptText="18 (em anos)" />
+      <TextField fx:id="textFieldAltura" layoutX="91.0" layoutY="235.0" prefHeight="25.0" prefWidth="202.0" promptText="183 (em cm)" />
+      <RadioButton fx:id="radioFeminino" layoutX="91.0" layoutY="142.0" mnemonicParsing="false" onAction="#onlyOneRadio" text="Feminino" />
+      <RadioButton fx:id="radioMasculino" layoutX="91.0" layoutY="166.0" mnemonicParsing="false" onAction="#onlyOneRadio" text="Masculino" />
+      <Button fx:id="buttonIncluir" layoutX="42.0" layoutY="290.0" mnemonicParsing="false" onAction="#onButton" prefHeight="25.0" prefWidth="75.0" text="Incluir" />
+      <Button fx:id="buttonRelatorio" layoutX="122.0" layoutY="290.0" mnemonicParsing="false" onAction="#onButton" prefHeight="25.0" prefWidth="88.0" text="Relatorio" />
+      <Button fx:id="buttonSair" layoutX="215.0" layoutY="290.0" mnemonicParsing="false" onAction="#onButton" prefHeight="25.0" prefWidth="75.0" text="Sair" />
+   </children>
+</AnchorPane>

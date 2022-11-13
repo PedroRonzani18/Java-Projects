@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.quadradomagico.QuadradoMagicoController">
+   <children>
+      <TextField fx:id="field1" alignment="CENTER" editable="false" layoutX="48.0" layoutY="45.0" onMouseClicked="#mouseClicked" text="0" />
+      <TextField fx:id="field2" alignment="CENTER" layoutX="222.0" layoutY="45.0" onMouseClicked="#mouseClicked" text="0" />
+      <TextField fx:id="field3" alignment="CENTER" layoutX="400.0" layoutY="44.0" onMouseClicked="#mouseClicked" text="0" />
+      <TextField fx:id="field4" alignment="CENTER" layoutX="48.0" layoutY="96.0" onMouseClicked="#mouseClicked" text="0" />
+      <TextField fx:id="field5" alignment="CENTER" layoutX="222.0" layoutY="96.0" onMouseClicked="#mouseClicked" text="0" />
+      <TextField fx:id="field6" alignment="CENTER" layoutX="400.0" layoutY="95.0" onMouseClicked="#mouseClicked" text="0" />
+      <TextField fx:id="field9" alignment="CENTER" layoutX="400.0" layoutY="148.0" onMouseClicked="#mouseClicked" text="0" />
+      <TextField fx:id="field8" alignment="CENTER" layoutX="222.0" layoutY="149.0" onMouseClicked="#mouseClicked" text="0" />
+      <TextField fx:id="field7" alignment="CENTER" layoutX="48.0" layoutY="149.0" onMouseClicked="#mouseClicked" text="0" />
+      <Button fx:id="button1" layoutX="48.0" layoutY="210.0" mnemonicParsing="false" onAction="#onClickButton" prefHeight="25.0" prefWidth="149.0" text="1" />
+      <Button fx:id="button3" layoutX="400.0" layoutY="210.0" mnemonicParsing="false" onAction="#onClickButton" prefHeight="25.0" prefWidth="149.0" text="3" />
+      <Button fx:id="button4" layoutX="48.0" layoutY="252.0" mnemonicParsing="false" onAction="#onClickButton" prefHeight="25.0" prefWidth="149.0" text="4" />
+      <Button fx:id="button5" layoutX="222.0" layoutY="256.0" mnemonicParsing="false" onAction="#onClickButton" prefHeight="25.0" prefWidth="149.0" text="5" />
+      <Button fx:id="button6" layoutX="400.0" layoutY="256.0" mnemonicParsing="false" onAction="#onClickButton" prefHeight="25.0" prefWidth="149.0" text="6" />
+      <Button fx:id="button7" layoutX="48.0" layoutY="296.0" mnemonicParsing="false" onAction="#onClickButton" prefHeight="25.0" prefWidth="149.0" text="7" />
+      <Button fx:id="button8" layoutX="222.0" layoutY="296.0" mnemonicParsing="false" onAction="#onClickButton" prefHeight="25.0" prefWidth="149.0" text="8" />
+      <Button fx:id="button9" layoutX="400.0" layoutY="299.0" mnemonicParsing="false" onAction="#onClickButton" prefHeight="25.0" prefWidth="149.0" text="9" />
+      <Button fx:id="buttonSair" layoutX="135.0" layoutY="349.0" mnemonicParsing="false" onAction="#onClickButton" prefHeight="25.0" prefWidth="149.0" text="Sair" />
+      <Button fx:id="buttonLimpar" layoutX="351.0" layoutY="349.0" mnemonicParsing="false" onAction="#onClickButton" prefHeight="25.0" prefWidth="149.0" text="Limpar" />
+      <Button fx:id="button2" layoutX="222.0" layoutY="210.0" mnemonicParsing="false" onAction="#onClickButton" prefHeight="25.0" prefWidth="149.0" text="2" />
+   </children>
+</AnchorPane>

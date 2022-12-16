@@ -4,7 +4,7 @@ import java.security.SecureRandom;
 
 public class LogicaCampoMinado {
     private int [][] campo; // 0 - bomba / 1 - sem bomba
-    private static int posSemMinas = 84; //posicao sem minas
+    private static int posSemMinas = 40; //posicao sem minas
     private int tentativas;
     private SecureRandom random;
 
